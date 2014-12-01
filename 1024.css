@@ -1,0 +1,86 @@
+body {
+	margin:0;
+	padding: 0;
+	border-width: 0;
+	background-color: #FFCCCC;
+}
+
+h1 {
+	text-align: center;
+}
+
+#my1024_view {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+	
+	/*Center the table*/
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#row {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.cell {	
+	border: 10px solid #996633;
+	
+	padding: 0;
+	
+	width: 110px;
+	height: 110px;
+		
+	background-color: lightgray;
+}
+
+.number_view {
+	width: 110px;
+	height: 110px;
+	
+	margin: 0;
+	
+	text-align: center;
+	font-family: sans-serif;
+	font-size: 30px;
+   
+   /* text alignment */
+	   
+   text-align: center;	/* center horizzontally */
+   
+   display: table-cell; 	/* center vertically */
+   vertical-align:middle;	/* center vertically */
+}
+
+/* Class for numbers */
+.number_2 {	background-color: #FFFFFF; content: "2";}
+
+.number_4 {	background-color: #FFFFCC; }
+
+.number_8 {	background-color: #FFFF99; }
+
+.number_16 {	background-color: #FFFF66; }
+
+.number_32 {	background-color: #FFCC33; }
+
+.number_64 {	background-color: #FF9900; }
+
+.number_128 {	background-color: #FF6600; }
+
+.number_256 {	background-color: #FF66FF; }
+
+.number_512 {	background-color: #FF33CC; }
+
+.number_1024 {	background-color: #CC33FF; }
+
+.number_2048 {	background-color: #CC00CC; }
+
+.number_4096 {	background-color: #990066; }
+
+.number_8192 {	background-color: #6600FF; }
+
+.number_16384 {	background-color: #660099; }
